@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4F2F203B-456C-E4E2-0778-59009DE048B5}</ProjectGuid>
+    <ProjectGuid>{D55E595C-D8AC-B8C1-F1BC-BCC3B1DCE059}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\camina.cs" />
     <Compile Include="Assets\Code\EvilCube.cs" />
     <Compile Include="Assets\Code\Player.cs" />
     <Compile Include="Assets\Code\PlayerFollower.cs" />
@@ -70,25 +71,25 @@
     <Compile Include="Assets\PointAndClick.cs" />
     <Compile Include="Assets\PointAndClick2.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/PENULTIMO SEMESTRE/VIDEOJUEGOS/juegos/Clase 2/GameDevelopment2019-master/WalkingPlayer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dell - C4/Downloads/Personaje_01-master (2)/Personaje/Player/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/PENULTIMO SEMESTRE/VIDEOJUEGOS/juegos/Clase 2/GameDevelopment2019-master/WalkingPlayer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dell - C4/Downloads/Personaje_01-master (2)/Personaje/Player/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/PENULTIMO SEMESTRE/VIDEOJUEGOS/juegos/Clase 2/GameDevelopment2019-master/WalkingPlayer/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dell - C4/Downloads/Personaje_01-master (2)/Personaje/Player/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/PENULTIMO SEMESTRE/VIDEOJUEGOS/juegos/Clase 2/GameDevelopment2019-master/WalkingPlayer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Dell - C4/Downloads/Personaje_01-master (2)/Personaje/Player/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/PENULTIMO SEMESTRE/VIDEOJUEGOS/juegos/Clase 2/GameDevelopment2019-master/WalkingPlayer/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dell - C4/Downloads/Personaje_01-master (2)/Personaje/Player/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/PENULTIMO SEMESTRE/VIDEOJUEGOS/juegos/Clase 2/GameDevelopment2019-master/WalkingPlayer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Dell - C4/Downloads/Personaje_01-master (2)/Personaje/Player/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/PENULTIMO SEMESTRE/VIDEOJUEGOS/juegos/Clase 2/GameDevelopment2019-master/WalkingPlayer/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Dell - C4/Downloads/Personaje_01-master (2)/Personaje/Player/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -274,13 +275,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/PENULTIMO SEMESTRE/VIDEOJUEGOS/juegos/Clase 2/GameDevelopment2019-master/WalkingPlayer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dell - C4/Downloads/Personaje_01-master (2)/Personaje/Player/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/PENULTIMO SEMESTRE/VIDEOJUEGOS/juegos/Clase 2/GameDevelopment2019-master/WalkingPlayer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Dell - C4/Downloads/Personaje_01-master (2)/Personaje/Player/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/PENULTIMO SEMESTRE/VIDEOJUEGOS/juegos/Clase 2/GameDevelopment2019-master/WalkingPlayer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Dell - C4/Downloads/Personaje_01-master (2)/Personaje/Player/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

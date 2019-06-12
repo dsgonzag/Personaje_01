@@ -34,10 +34,17 @@ public class Player : MonoBehaviour
             var speed = 0f;
             if (Input.GetKey(KeyCode.LeftArrow))
             {
+                if (GetComponent<SpriteRenderer>().flipX==false){
+                    GetComponent<SpriteRenderer>().flipX=true;
+                }
                 speed += -walkingSpeed;
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
+                if (GetComponent<SpriteRenderer>().flipX==true)
+                {
+                    GetComponent<SpriteRenderer>().flipX=false;
+                }
                 speed += walkingSpeed;
             }
             v.x = speed;
